@@ -12,3 +12,6 @@ Author: Katia Bulekova
 1. OBS Studio Setup: [obs.md](obs.md)
 
 
+## Video Recording
+
+To start a new recording in OBS, use the Controls dock. The step-by-step process described here: [recording.md](recording.md)
