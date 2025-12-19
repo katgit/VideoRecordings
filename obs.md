@@ -1,12 +1,19 @@
 # OBS Studio Settings 
 
+## Table of Contents
+* [1. Video Settings for Sharp Text](#1. Video Settings for Sharp Text)
+* [2. Audio Settings for Crystal Clarity](#2. Audio Settings for Crystal Clarity)
+* [3. Dial in the "Sweet Spot" Volume](#3. Dial in the "Sweet Spot" Volume)
+* [4. Setting up the "Pro Sound" Filters](4. Setting up the "Pro Sound" Filters)
+
+
 Use the following settings for the best video quality when screen capturing. 
 
 ## 1. Video Settings for Sharp Text
 
 1. Click *Settings* (bottom right corner)
 2. Click the *Output* tab in the left sidebar
-3. At the top, change *Output Mode* from "Simple" to "Advanced"
+3. At the top, change *Output Mode* from "Simple" to "Advanced."
 
 Stay on the "Output* tab and click the *Recording* sub-tab at the top.
 - **Recording Format**: Find the dropdown and select **mkv** (remember to "Remux" to MP4 later under File > Remux Recordings).
