@@ -1,15 +1,15 @@
 # OBS Studio Settings 
 
 ## Table of Contents
-* [1. Video Settings for Sharp Text](#1. Video Settings for Sharp Text)
-* [2. Audio Settings for Crystal Clarity](#2. Audio Settings for Crystal Clarity)
-* [3. Dial in the "Sweet Spot" Volume](#3. Dial in the "Sweet Spot" Volume)
-* [4. Setting up the "Pro Sound" Filters](4. Setting up the "Pro Sound" Filters)
+* [Video Settings for Sharp Text](#video-settings-for-sharp-text)
+* [Audio Settings for Crystal Clarity](#audio-settings-for-crystal-clarity)
+* [Dial in the Sweet Spot Volume](#dial-in-the-sweet-spot-volume)
+* [Setting up the Pro Sound Filters](#setting-up-the-pro-sound-filters)
 
-
+----
 Use the following settings for the best video quality when screen capturing. 
 
-## 1. Video Settings for Sharp Text
+## Video Settings for Sharp Text
 
 1. Click *Settings* (bottom right corner)
 2. Click the *Output* tab in the left sidebar
@@ -30,7 +30,7 @@ Switch to the Video tab in the left sidebar of the Settings window.
 
 **Tip**: If your input resolution is higher than the output resolution, go to the Video tab and ensure the Downscale Filter is set to Lanczos—this is the sharpest setting for text.
 
-## 2. Audio Settings for Crystal Clarity
+## Audio Settings for Crystal Clarity
 
 To use your headphone microphone and ensure it sounds professional for your Linux tutorial, you need to tell OBS exactly which device to use and then "mix" it so it's clear and centered.
 
@@ -52,7 +52,7 @@ Headset microphones often record in only the "Left" channel, which means your vi
 4. Find your Mic/Aux in the list and check the box for Mono. This ensures your voice is centered in both ears.
 5. Close the window.
 
-## 3. Dial in the "Sweet Spot" Volume 
+## Dial in the Sweet Spot Volume 
 
 While speaking at your normal teaching volume, watch the green/yellow/red bar in the Audio Mixer:
 **The Goal**: You want your voice to consistently stay in the Yellow Zone (between -15dB and -10dB).
@@ -61,7 +61,7 @@ While speaking at your normal teaching volume, watch the green/yellow/red bar in
 
 
 
-## 4. Setting up the "Pro Sound" Filters
+## Setting up the Pro Sound Filters
 
 Since headset microphones are positioned close to your mouth, they are prone to picking up heavy breathing, keyboard clicks, and background hum. Use these filters in OBS to achieve a professional broadcast sound.
 
