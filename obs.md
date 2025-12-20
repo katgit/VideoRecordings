@@ -5,6 +5,8 @@
 * [Audio Settings for Crystal Clarity](#audio-settings-for-crystal-clarity)
 * [Dial in the Sweet Spot Volume](#dial-in-the-sweet-spot-volume)
 * [Setting up the Pro Sound Filters](#setting-up-the-pro-sound-filters)
+* [OBS Recording Hotkeys for macOS](#obs-recording-hotkeys-for-macos)
+* [OBS Screen Capture Setup for macOS](#obs-screen-capture-setup-for-macos)
 
 ----
 Use the following settings for the best video quality when screen capturing. 
@@ -80,3 +82,52 @@ Since headset microphones are positioned close to your mouth, they are prone to 
 ### Final Verification
 Once applied, speak at your loudest "teaching voice." The level meter for your mic in the OBS mixer should stay in the **Yellow zone** and should never hit the very end of the **Red zone**.
 
+
+## OBS Recording Hotkeys for macOS
+
+To avoid showing the OBS window at the start and end of your Linux tutorials, use these keyboard shortcuts.
+
+### 1. Configure Hotkeys in OBS
+1. Go to **Settings > Hotkeys**.
+2. Search for "Recording".
+3. Assign the following combinations:
+
+| Action | Shortcut |
+| :--- | :--- |
+| **Start Recording** | <kbd>⌥ Option</kbd> + <kbd>⌘ Cmd</kbd> + <kbd>S</kbd> |
+| **Stop Recording** | <kbd>⌥ Option</kbd> + <kbd>⌘ Cmd</kbd> + <kbd>E</kbd> |
+| **Pause/Unpause** | <kbd>⌥ Option</kbd> + <kbd>⌘ Cmd</kbd> + <kbd>W</kbd> |
+
+### 2. Enable Global Input (macOS Permission)
+For these keys to work while you are typed inside your Linux Terminal, you must give OBS permission to monitor your keyboard:
+1. Open **System Settings** > **Privacy & Security** > **Accessibility**.
+2. Toggle **OBS** to **ON**.
+3. Open **Privacy & Security** > **Input Monitoring**.
+4. Toggle **OBS** to **ON**.
+
+
+On macOS (especially in newer versions like Sequoia or Sonoma), the Input Monitoring list is often empty because it is "permission on demand." This means an app won't appear there until it explicitly asks the system for that specific permission.
+
+If OBS hasn't triggered that request yet, you can manually force it into the list. Here is how to fix it:
+
+- Open System Settings > Privacy & Security > Input Monitoring.
+- Look for a small plus (+) icon at the bottom of the (empty) list. Note: You may need to authenticate with your Touch ID or password first.
+- A file browser will open. Go to your Applications folder, select OBS, and click Open.
+
+OBS will now appear in the list. Ensure the toggle next to it is turned ON (blue). OBS will likely show a popup saying it needs to "Quit & Reopen" to apply the settings. Click Quit & Reopen.
+
+### 3. Advanced Settings
+To ensure the shortcuts always trigger, go to **Settings > Advanced** in OBS and set **Hotkey Focus Behavior** to `Never disable hotkeys`.
+
+## OBS Screen Capture Setup for macOS
+
+For the highest quality text rendering in Linux terminal tutorials, follow these steps:
+
+1. **Add Source**: In the **Sources** dock, click `+` > `macOS Screen Capture`.
+2. **Method**: Choose `Display Capture` to ensure all terminal popups and browser links are recorded. Select `Window Capture` for cleaner focus (if you only need to capture a single window, for example, an OnDemand session within a browser.
+3. **Cursor**: Ensure `Show Cursor` is checked.
+4. **Resolution Check**: 
+   * If the capture is too large for the canvas, right-click the source in the preview.
+   * Go to `Transform` > `Fit to Screen`.
+5. **Filters (Optional)**: 
+   * If text appears "shimmery," go to `Settings > Video` and set `Downscale Filter` to `Lanczos`.
