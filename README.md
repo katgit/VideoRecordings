@@ -39,5 +39,12 @@ Once you have your files in .mp4 or .mov format, here is what you do first:
 3. **Create a Sequence**: Drag your first clip onto the Timeline panel. This automatically creates a "Sequence" that matches your video's resolution and frame rate.
 4. **Arrange and Merge**: Drag the rest of your clips onto the timeline, snapping them end-to-end in the order you want them to appear.
 
+## Cutting/Removing sections
 
+If you have a section in the middle of a clip (like a mistake in a terminal command) that you want to remove:
+
+1. **Select the Razor Tool**: Press the 'C' key on your keyboard (or click the razor icon in the toolbar).
+2. **Make your cuts**: Click on the clip at the exact frame where the unwanted section starts, then click again where it ends.
+3. **Delete the section**: Switch back to the Selection Tool (press 'V'), click the middle segment you just created, and hit Backspace or Delete.
+4. **Close the gap**: Right-click the empty space (the "gap") and select Ripple Delete. This slides all following clips over so there’s no black screen.
 
