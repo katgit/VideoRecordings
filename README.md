@@ -6,6 +6,7 @@ Author: Katia Bulekova
 
 - *OBS Studio*: [https://obsproject.com/download](https://obsproject.com/download)
 - *Presentify*: [https://presentifyapp.com/](https://presentifyapp.com/)
+- *Adobe Premiere Pro*
 
 ## Preparation
 
@@ -28,3 +29,15 @@ Once the Recording is set up and the HotKeys are set, click on the window you wa
 ## Remux
 
 If the recordings are generated in the mkv format, use the "Remux" in OBS to convert them into mp4 format: File -> Remux Recordings
+
+## Importing into Premiere Pro
+
+Once you have your files in .mp4 or .mov format, here is what you do first:
+
+1. **Create a New Project**: Open Premiere, click "New Project," and name it (e.g., Merged_Data_Videos).
+2. **Importing**: Double-click in the Project Panel (bottom left) or press Ctrl+I (Cmd+I on Mac) and select all your converted files.
+3. **Create a Sequence**: Drag your first clip onto the Timeline panel. This automatically creates a "Sequence" that matches your video's resolution and frame rate.
+4. **Arrange and Merge**: Drag the rest of your clips onto the timeline, snapping them end-to-end in the order you want them to appear.
+
+
+
