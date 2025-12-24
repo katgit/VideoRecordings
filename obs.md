@@ -65,6 +65,8 @@ While speaking at your normal teaching volume, watch the green/yellow/red bar in
 
 ## Setting up the Pro Sound Filters
 
+**Important** This section needs to be reviewed. I eventually disabled all these filters as they sometimes cutoff my voice
+
 Since headset microphones are positioned close to your mouth, they are prone to picking up heavy breathing, keyboard clicks, and background hum. Use these filters in OBS to achieve a professional broadcast sound.
 
 ### How to Apply
